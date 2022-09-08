@@ -10855,3 +10855,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.personal-card {
+  background-color: #283618 !important;
+  border-color: #dda15e;
+  color: #fefae0;
+  height: 15vh;
+  padding: 3rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li {
+  display: inline block;
+  padding: 1rem;
+  border: 2px solid #bc6c25;
+}

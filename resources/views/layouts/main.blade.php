@@ -8,9 +8,14 @@
     <title> @yield('title')</title>
 </head>
 <body>
+
     @include('includes.header')
 
+    <main class="container">
+        <div class="row g-4">
 
-    @yield('home')
+            @yield('home')
+        </div>
+    </main>
 </body>
 </html>

@@ -1,3 +1,14 @@
 //
 
-@import "~bootstrap/scss/bootstrap"
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/card.scss";
+
+ul{
+    list-style: none;
+    display: flex;
+    li{
+        display: inline block;
+        padding: 1rem;
+        border: 2px solid #bc6c25;
+    }
+}
