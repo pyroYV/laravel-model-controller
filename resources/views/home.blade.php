@@ -1,4 +1,6 @@
 @extends('layouts.main')
 
+@section('title','Movies')
 
-class MovieController extends(Controller)
+@section('home')
+
